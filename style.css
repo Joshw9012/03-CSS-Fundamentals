@@ -122,3 +122,36 @@ li:nth-child(even) {
 article p:first-child {
   color: #ac2b2b;
 }
+
+/* --------------------------------- */
+/* styling hyperlink with pseudo */
+
+/* target all the <a> with or with out a ref link */
+a {
+}
+
+/* target all the <a> elements that has an href attribute */
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+  /* cancel the underline */
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+
+  /* decoration style: solid, dash, dotted, wavy */
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+
+/* LVHA */
