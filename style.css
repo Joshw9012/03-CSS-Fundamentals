@@ -155,3 +155,19 @@ a:active {
 }
 
 /* LVHA */
+
+#copyright {
+  color: red;
+}
+
+.copyright {
+  color: red;
+}
+
+.text {
+  color: red;
+}
+
+footer p {
+  color: red;
+}
